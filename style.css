@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Fira'; */
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Consolas';
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:cornflowerblue ;
+} 
+
+#card{
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    padding: 30px; 
+    text-align: center;
+}
+#card img{
+    height: 50%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    padding: 30 px;
+    text-align: center;
+}
+#card h1{
+    font-family: 'Fira';
+    text-align: center;
+    font-size: 30px; 
+    margin: 10px 0;
+}
+
+#card h2{
+    font-size: 30 px;
+    color: red;
+    margin: 20 px;
+    padding: 15px;
+}
+#card button{
+    background-color: cadetblue;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
